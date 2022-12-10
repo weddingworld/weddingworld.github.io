@@ -420,8 +420,8 @@ font-size: 30px;
 </div>
 
     <script>
-      //var loc = window.location.search.substring(1).split("=")[1].trim();
-      var link = "https://garudadevwedding-default-rtdb.asia-southeast1.firebasedatabase.app/livelink/SrinuPadma/.json";//"https://newscode-fc5e6-default-rtdb.firebaseio.com/mapanalysis/" + loc + "/.json";
+      var loc = window.location.search.substring(1).split("=")[1].trim();
+      var link = "https://garudadevwedding-default-rtdb.asia-southeast1.firebasedatabase.app/livelink/"+loc+"/.json";
       
       $.getJSON(link, function (json) {
             var data=json;
